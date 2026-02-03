@@ -1,7 +1,7 @@
 import Navbar from "./components/navbar";
 import LandingLogo from "../public/logo.png"
 import Image from "next/image";
-import LightRays from "../components/LightRays"
+import LightRays from "./components/LightRays"
 import Countdown from "./components/countdown";
 
 export default function Home() {
