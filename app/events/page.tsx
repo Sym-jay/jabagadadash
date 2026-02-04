@@ -16,7 +16,7 @@ export default function EventsPage() {
 
   return (
     <Wrapper>
-      <div className="min-h-screen bg-[#0a0a0a] p-4 sm:p-6 md:p-8">
+      <div className="min-h-screen bg-[#0a0a0a] px-4 sm:px-6 md:px-8 py-10 pb-30">
       <div className="max-w-6xl mx-auto">
         <h1 className="flex items-center justify-center text-[#efdb92] text-3xl sm:text-4xl md:text-5xl font-bold mb-6 sm:mb-8 md:mb-10 tracking-tight font-cormorant">Events</h1>
         <div className="flex items-center justify-center mb-8 sm:mb-10 md:mb-12">

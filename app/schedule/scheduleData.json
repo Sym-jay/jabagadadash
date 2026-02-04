@@ -1,0 +1,208 @@
+{
+  "fests": [
+    {
+      "name": "Management Fest",
+      "events": [
+        {
+          "name": "Drishti (Reels Making)",
+          "date": "19/02/2026",
+          "registrationFee": "200/- per team (Max 2)",
+          "cashPrize": "1st: 5,000/-"
+        },
+        {
+          "name": "Navodayam (Idea Pitch)",
+          "date": "19/02/2026",
+          "registrationFee": "250/- per team (Max 4)",
+          "cashPrize": "1st: 6,000/-"
+        },
+        {
+          "name": "Kurukshetra (IPL Auction)",
+          "date": "19/02/2026",
+          "registrationFee": "500/- per team (Max 4)",
+          "cashPrize": "1st: 10,000/- | 2nd: 6,000/-"
+        },
+        {
+          "name": "Chakravyuham (Best Management Team)",
+          "date": "19/02/2026",
+          "registrationFee": "600/- per team (Max 4)",
+          "cashPrize": "1st: 15,000/- | 2nd: 8,000/-"
+        },
+        {
+          "name": "Vyapara Tantram (The Trading Arena)",
+          "date": "19/02/2026",
+          "registrationFee": "600/- per team (Max 4)",
+          "cashPrize": "1st: 10,000/-"
+        }
+      ]
+    },
+    {
+      "name": "Tech Fest",
+      "events": [
+        {
+          "name": "Nirman (Hackathon)",
+          "date": "19/02/2026",
+          "registrationFee": "200/- per head",
+          "cashPrize": "50,000/-"
+        },
+        {
+          "name": "Daksh (Workshop Series)",
+          "date": "20/02/2026",
+          "registrationFee": "200/- per head",
+          "cashPrize": "-"
+        },
+        {
+          "name": "Yodha (Gaming & eSports)",
+          "date": "20/02/2026",
+          "registrationFee": "150/- per head",
+          "cashPrize": "15,000/-"
+        },
+        {
+          "name": "Ranam CTF (Competitive Coding + CTF)",
+          "date": "20/02/2026",
+          "registrationFee": "150/- per head",
+          "cashPrize": "12,000/-"
+        },
+        {
+          "name": "MayaSabha",
+          "date": "20/02/2026",
+          "registrationFee": "50/- per use",
+          "cashPrize": "-"
+        },
+        {
+          "name": "Eka-Lakshya (Line Follower Robot)",
+          "date": "20/02/2026",
+          "registrationFee": "200/- per team",
+          "cashPrize": "15,000/-"
+        },
+        {
+          "name": "Idea Dharshan (Poster/Paper Presentation)",
+          "date": "20/02/2026",
+          "registrationFee": "100/- per head",
+          "cashPrize": "3,500/-"
+        },
+        {
+          "name": "Pradarshini (Project Expo)",
+          "date": "20/02/2026",
+          "registrationFee": "200/- per team",
+          "cashPrize": "23,000/-"
+        },
+        {
+          "name": "Web Aakriti (Build a Website)",
+          "date": "20/02/2026",
+          "registrationFee": "80/- per head",
+          "cashPrize": "5,000/-"
+        }
+      ]
+    },
+    {
+      "name": "Cultural Fest",
+      "events": [
+        {
+          "name": "Gudha-Bhav (Mystery Emotion Hunt)",
+          "date": "19/02/2026",
+          "registrationFee": "120/- per team (Max 4)",
+          "cashPrize": "1st: 3,000/- | 2nd: 1,500/-"
+        },
+        {
+          "name": "Trinetra (The Eye of God Challenge)",
+          "date": "19/02/2026",
+          "registrationFee": "120/- per team (Max 4)",
+          "cashPrize": "1st: 3,000/- | 2nd: 1,500/-"
+        },
+        {
+          "name": "Chitraangika (Mime)",
+          "date": "21/02/2026",
+          "registrationFee": "300/- per team (Max 10)",
+          "cashPrize": "1st: 5,000/- | 2nd: 3,000/-"
+        },
+        {
+          "name": "Taranga (Fashion Show)",
+          "date": "21/02/2026",
+          "registrationFee": "1,500/- per team",
+          "cashPrize": "1st: 25,000/- | 2nd: 15,000/-"
+        },
+        {
+          "name": "Dhruva '26 (Western/Eastern Band)",
+          "date": "21/02/2026",
+          "registrationFee": "1,000/- per team",
+          "cashPrize": "1st: 20,000/- | 2nd: 10,000/-"
+        },
+        {
+          "name": "Yugma (Duel Dynamix)",
+          "date": "21/02/2026",
+          "registrationFee": "600/- per team",
+          "cashPrize": "1st: 15,000/- | 2nd: 5,000/-"
+        },
+        {
+          "name": "Swarabhinaya (Dub a scene)",
+          "date": "21/02/2026",
+          "registrationFee": "200/- per team (Max 2)",
+          "cashPrize": "1st: 3,000/- | 2nd: 2,000/-"
+        }
+      ]
+    },
+    {
+      "name": "Psychology Fest",
+      "events": [
+        {
+          "name": "Squid Game",
+          "date": "19/02/2026",
+          "registrationFee": "200/- per head",
+          "cashPrize": "1st: 8,000/- | 2nd: 5,000/-"
+        },
+        {
+          "name": "Dyota",
+          "date": "19/02/2026",
+          "registrationFee": "200/- per head",
+          "cashPrize": "1st: 6,000/- | 2nd: 3,000/-"
+        },
+        {
+          "name": "Thanatos",
+          "date": "19/02/2026",
+          "registrationFee": "200/- per head",
+          "cashPrize": "1st: 5,000/- | 2nd: 2,500/-"
+        }
+      ]
+    },
+    {
+      "name": "Literary Fest",
+      "events": [
+        {
+          "name": "Jigisha - Inkquest",
+          "date": "20/02/2026",
+          "registrationFee": "50/- per person",
+          "cashPrize": "Book hamper worth 3,000/-"
+        },
+        {
+          "name": "Ganitha - Lakshya",
+          "date": "20/02/2026",
+          "registrationFee": "40/- per person",
+          "cashPrize": "1st: 5,000/-"
+        },
+        {
+          "name": "Tejas (Sanskrit Quiz - Online)",
+          "date": "20/02/2026",
+          "registrationFee": "20/- per person",
+          "cashPrize": "1st: 1,500/- | 2nd: 1,000/-"
+        }
+      ]
+    },
+    {
+      "name": "General Events",
+      "events": [
+        {
+          "name": "Chinmaya 7s Football Tournament",
+          "date": "19/02/2026",
+          "registrationFee": "1,000/- per team",
+          "cashPrize": "1st: 12,500/- | 2nd: 7,000/-"
+        },
+        {
+          "name": "Lakshya '26 (Treasure Hunt)",
+          "date": "20/02/2026",
+          "registrationFee": "500/- per team",
+          "cashPrize": "1st: 15,000/-"
+        }
+      ]
+    }
+  ]
+}

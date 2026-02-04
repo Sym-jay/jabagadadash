@@ -8,7 +8,7 @@ export default function AboutPage() {
     <Wrapper>
         <div className="min-h-screen bg-[#0a0a0a] px-8 py-16">
       <div className="max-w-5xl mx-auto">
-        <h1 className="text-center text-[#efdb92] text-7xl font-bold mb-20 tracking-tight animate-fade-in font-cormorant">
+        <h1 className="text-center text-[#efdb92] text-6xl font-bold mb-20 tracking-tight animate-fade-in font-cormorant">
           About
         </h1>
 
@@ -25,7 +25,7 @@ export default function AboutPage() {
         </section>
 
         {/* Divider */}
-        <div className="w-full h-px bg-gradient-to-r from-transparent via-[#efdb92] to-transparent mb-24"></div>
+        <div className="w-full h-px bg-linear-to-r from-transparent via-[#efdb92] to-transparent mb-24"></div>
 
         {/* Location Section */}
         <section className="mb-24 animate-slide-up" style={{ animationDelay: '0.2s' }}>
