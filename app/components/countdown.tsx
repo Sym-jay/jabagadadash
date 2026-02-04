@@ -46,14 +46,21 @@ export default function Countdown() {
           </span>
           <span className="text-sm md:text-base text-gray-400 mt-2">Days</span>
         </div>
-        <div className="w-1 h-1 bg-[#efdb92] rounded-full"></div>
+        <div className="flex flex-col gap-2">
+          <span className="w-1 h-1 bg-[#efdb92] rounded-full"></span>
+          <span className="w-1 h-1 bg-[#efdb92] rounded-full"></span>
+        </div>
         <div className="flex flex-col items-center rounded-2xl p-4 md:p-4 min-w-[80px] md:min-w-[100px]">
           <span className="text-3xl md:text-2xl font-bold text-[#efdb92]">
             {timeLeft.hours.toString().padStart(2, "0")}
           </span>
           <span className="text-sm md:text-base text-gray-400 mt-2">Hours</span>
         </div>
-        <div className="w-1 h-1 bg-[#efdb92] rounded-full"></div>
+
+        <div className="flex flex-col gap-2">
+          <span className="w-1 h-1 bg-[#efdb92] rounded-full"></span>
+          <span className="w-1 h-1 bg-[#efdb92] rounded-full"></span>
+        </div>
 
         <div className="flex flex-col items-center rounded-2xl p-4 md:p-4 min-w-[80px] md:min-w-[100px]">
           <span className="text-3xl md:text-2xl font-bold text-[#efdb92]">
@@ -61,7 +68,11 @@ export default function Countdown() {
           </span>
           <span className="text-sm md:text-base text-gray-400 mt-2">Minutes</span>
         </div>
-        <div className="w-1 h-1 bg-[#efdb92] rounded-full"></div>
+        
+        <div className="flex flex-col gap-2">
+          <span className="w-1 h-1 bg-[#efdb92] rounded-full"></span>
+          <span className="w-1 h-1 bg-[#efdb92] rounded-full"></span>
+        </div>
 
         <div className="flex flex-col items-center rounded-2xl p-4 md:p-4 min-w-[80px] md:min-w-[100px]">
           <span className="text-3xl md:text-2xl font-bold text-[#efdb92]">

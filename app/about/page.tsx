@@ -1,6 +1,9 @@
+import Wrapper from "../components/wrapper";
+
 export default function AboutPage() {
   return (
-    <div className="min-h-screen bg-[#0a0a0a] px-8 py-16">
+    <Wrapper>
+        <div className="min-h-screen bg-[#0a0a0a] px-8 py-16">
       <div className="max-w-5xl mx-auto">
         <h1 className="text-center text-[#efdb92] text-6xl font-bold mb-20 tracking-tight">
           About
@@ -204,5 +207,7 @@ export default function AboutPage() {
         </section>
       </div>
     </div>
+    </Wrapper>
+    
   );
 }

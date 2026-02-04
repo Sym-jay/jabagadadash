@@ -1,5 +1,6 @@
 'use client';
 
+import Wrapper from "../components/wrapper";
 import EventCard from "./EventCard";
 import { mockEvents } from "./eventData";
 import { useState } from "react";
@@ -14,11 +15,10 @@ export default function EventsPage() {
     : mockEvents.filter(event => event.category === selectedCategory);
 
   return (
-    <div className="min-h-screen bg-[#0a0a0a] p-8">
+    <Wrapper>
+      <div className="min-h-screen bg-[#0a0a0a] p-8">
       <div className="max-w-6xl mx-auto">
         <h1 className="flex items-center justify-center text-[#efdb92] text-5xl font-bold mb-10 tracking-tight">Events</h1>
-        
-        {/* Category Filter Buttons */}
         <div className="flex items-center justify-center mb-12">
           <div className="bg-[rgba(255,255,255,0.04)] backdrop-blur-lg rounded-full px-6 py-3 border border-[rgba(255,255,255,0.16)] inline-flex gap-3">
             {categories.map((category) => (
@@ -50,5 +50,7 @@ export default function EventsPage() {
         )}
       </div>
     </div>
+    </Wrapper>
+    
   );
 }
