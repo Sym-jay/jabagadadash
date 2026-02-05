@@ -1,10 +1,10 @@
 import LandingLogo from "../public/jb6_logo.png"
 import LandingLogo2 from "../public/jb6_bg_removed.png"
 import Image from "next/image";
-import LightRays from "./components/LightRays"
-import Countdown from "./components/countdown";
-import Wrapper from "./components/wrapper";
-import UpdatesComponents from "./components/updatescomponent";
+import LightRays from "@/components/LightRays"
+import Countdown from "@/components/countdown";
+import Wrapper from "@/components/wrapper";
+import UpdatesComponents from "@/components/updatescomponent";
 
 const datObj = [
     {
