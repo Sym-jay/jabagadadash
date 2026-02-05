@@ -153,7 +153,7 @@
     "location": "LP Campus",
     "category": "Tech",
     "tags": ["Day 2"],
-    "description": "A rigorous competition testing logic and security skills through algorithmic coding challenges and Capture The Flag (CTF) scenarios.",
+    "description": "A rigorous competition testing logic and security skills through algorithmic coding challenges.",
     "guidelines": "• Language: Strictly Python only\n• Participation: Solo (individual) event only\n• Rounds: 4 rounds including Mock, Debugging, Reverse Coding, and DSA Problem Solving\n• Forbidden Tools: Use of AI tools (ChatGPT/Copilot), mobile phones, or pre-written code is prohibited\n• Platform: All scoring is automated via HackerRank\n• Tie-Breaker: Based on the fastest cumulative completion time\n• Hardware: Participants must use provided campus computer lab systems\n• Venue: Lab A301; report 15 minutes before the Mock Round",
     "registrationFee": "150/- per head",
     "cashPrize": { "type": "first-second", "first": "8,000", "second": "4,000" },
@@ -514,8 +514,8 @@
     "id": "29",
     "title": "Lakshya '26",
     "date": "2026-02-21",
-    "location": "LP Campus",
-    "category": "Cultural",
+    "location": "LP Campus", 
+    "category": "General",
     "tags": ["Day 3"],
     "description": "A campus-wide treasure hunt where teams solve clues to find the treasure.",
     "guidelines": "• Solve clues across campus\n• Team coordination essential\n• Time-bound challenge\n• First team to complete wins",
@@ -527,6 +527,24 @@
     },
     "image": "/lakshya.png",
     "registrationLink": "https://tally.so/r/1AVRpg"
+  },
+  {
+    "id": "30",
+    "title": "Robowar",
+    "date": "2026-02-20",
+    "location": "LP Campus",
+    "category": "Tech",
+    "tags": ["Day 2"],
+    "description": "Robowar is a competitive robotics event where teams design and build a remote-controlled combat robot to battle against opponent robots in a closed arena. The objective is to disable, immobilize, or outscore opponents through strategy, control, and mechanical design.",
+    "guidelines": "• Teams design and build remote-controlled combat robots\n• Robots battle in a closed arena\n• Objective: disable, immobilize, or outscore opponents\n• Strategy, control, and mechanical design are key\n• A valid institutional ID card is mandatory for participation",
+    "registrationFee": "500/- per team",
+    "cashPrize": { "type": "prize-pool", "amount": "25,000" },
+    "coordinator": {
+      "name": "Althaf Rahman, Sayooj Sunil Kumar",
+      "phone": "7012250226, 7907338896"
+    },
+    "image": "/robowar.png",
+    "registrationLink": ""
   }
 ]
 
