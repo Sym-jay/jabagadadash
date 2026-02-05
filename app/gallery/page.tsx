@@ -8,7 +8,6 @@ interface GalleryImage {
   id: number;
   src: string;
   alt: string;
-  event: string;
   year: string;
 }
 
@@ -17,119 +16,102 @@ const galleryData: GalleryImage[] = [
     id: 1,
     src: "/Chinmaya Vishwa Vidyapeeth Deemed to be University successfully conducted its annual intercolleg.jpg.jpeg",
     alt: "Chinmaya Vishwa Vidyapeeth Event 1",
-    event: "Annual Intercollegiate Event",
     year: "2024"
   },
   {
     id: 2,
     src: "/Chinmaya Vishwa Vidyapeeth Deemed to be University successfully conducted its annual intercolleg (1).jpg.jpeg",
     alt: "Chinmaya Vishwa Vidyapeeth Event 2",
-    event: "Annual Intercollegiate Event",
     year: "2024"
   },
   {
     id: 3,
     src: "/Chinmaya Vishwa Vidyapeeth Deemed to be University successfully conducted its annual intercolleg (2).jpg.jpeg",
     alt: "Chinmaya Vishwa Vidyapeeth Event 3",
-    event: "Annual Intercollegiate Event",
     year: "2024"
   },
   {
     id: 4,
     src: "/Chinmaya Vishwa Vidyapeeth Deemed to be University successfully conducted its annual intercolleg (3).jpg.jpeg",
     alt: "Chinmaya Vishwa Vidyapeeth Event 4",
-    event: "Annual Intercollegiate Event",
     year: "2024"
   },
   {
     id: 5,
     src: "/Chinmaya Vishwa Vidyapeeth Deemed to be University successfully conducted its annual intercolleg (4).jpg.jpeg",
     alt: "Chinmaya Vishwa Vidyapeeth Event 5",
-    event: "Annual Intercollegiate Event",
     year: "2024"
   },
   {
     id: 6,
     src: "/Chinmaya Vishwa Vidyapeeth Deemed to be University successfully conducted its annual intercolleg (5).jpg.jpeg",
     alt: "Chinmaya Vishwa Vidyapeeth Event 6",
-    event: "Annual Intercollegiate Event",
     year: "2024"
   },
   {
     id: 7,
     src: "/Chinmaya Vishwa Vidyapeeth Deemed to be University successfully conducted its annual intercolleg (6).jpg.jpeg",
     alt: "Chinmaya Vishwa Vidyapeeth Event 7",
-    event: "Annual Intercollegiate Event",
     year: "2024"
   },
   {
     id: 8,
     src: "/Chinmaya Vishwa Vidyapeeth Deemed to be University successfully conducted its annual intercolleg (7).jpg.jpeg",
     alt: "Chinmaya Vishwa Vidyapeeth Event 8",
-    event: "Annual Intercollegiate Event",
     year: "2024"
   },
   {
     id: 9,
     src: "/Chinmaya Vishwa Vidyapeeth Deemed to be University successfully conducted its annual intercolleg (8).jpg.jpeg",
     alt: "Chinmaya Vishwa Vidyapeeth Event 9",
-    event: "Annual Intercollegiate Event",
     year: "2024"
   },
   {
     id: 10,
     src: "/1.jpg",
     alt: "Event Photo 1",
-    event: "Jabagadadash Event",
     year: "2023"
   },
   {
     id: 11,
     src: "/2.jpg",
     alt: "Event Photo 2",
-    event: "Jabagadadash Event",
     year: "2023"
   },
   {
     id: 12,
     src: "/3.jpg",
     alt: "Event Photo 3",
-    event: "Jabagadadash Event",
     year: "2023"
   },
   {
     id: 13,
     src: "/4.jpg",
     alt: "Event Photo 4",
-    event: "Jabagadadash Event",
     year: "2023"
   },
   {
     id: 14,
     src: "/5.jpg",
     alt: "Event Photo 5",
-    event: "Jabagadadash Event",
     year: "2023"
   },
   {
     id: 15,
     src: "/6.jpg",
     alt: "Event Photo 6",
-    event: "Jabagadadash Event",
     year: "2023"
   },
   {
     id: 16,
     src: "/7.jpg",
     alt: "Event Photo 7",
-    event: "Jabagadadash Event",
     year: "2023"
   },
   {
     id: 17,
     src: "/8.jpg",
     alt: "Event Photo 8",
-    event: "Jabagadadash Event",
     year: "2023"
   }
 ];
@@ -188,7 +170,6 @@ export default function Gallery() {
                     />
                   </div>
                   <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-4 pointer-events-none">
-                    <p className="text-[#efdb92] font-semibold text-lg">{image.event}</p>
                     <p className="text-gray-300 text-sm">{image.year}</p>
                   </div>
                 </div>
@@ -222,9 +203,6 @@ export default function Gallery() {
               className="object-contain max-w-full max-h-[70vh]"
             />
             <div className="mt-6 text-center">
-              <p className="text-[#efdb92] font-semibold text-xl mb-2">
-                {selectedImage.event}
-              </p>
               <p className="text-gray-400">{selectedImage.year}</p>
             </div>
             <button
