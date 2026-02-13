@@ -316,10 +316,10 @@
   {
     "id": "18",
     "title": "Taranga",
-    "date": "2026-02-21",
+    "date": "2026-02-20",
     "location": "LP Campus",
     "category": "Cultural",
-    "tags": ["Day 3"],
+    "tags": ["Day 2"],
     "description": "The grand fashion showcase event where teams walk the ramp in style.",
     "guidelines": "• Professional ramp walk\n• Theme-based outfits\n• Choreography required\n• Judging on presentation, creativity, and coordination",
     "registrationFee": "1500/- per team",
@@ -334,12 +334,12 @@
   {
     "id": "19",
     "title": "Dhruva '26",
-    "date": "2026-02-20",
+    "date": "2026-02-21",
     "location": "LP Campus",
     "category": "Cultural",
-    "tags": ["Day 2"],
+    "tags": ["Day 3"],
     "description": "An electrifying platform for college bands to showcase their sound, talent, teamwork, and compete for musical glory.",
-    "guidelines": "• Western or Eastern band format\n• Original or cover songs\n• Performance time limit\n• Sound equipment provided",
+    "guidelines": "",
     "registrationFee": "1000/- per team",
     "cashPrize": { "type": "first-second", "first": "20,000", "second": "10,000" },
     "coordinator": {
@@ -357,7 +357,7 @@
     "category": "Cultural",
     "tags": ["Day 3"],
     "description": "A duo performance competition where teams showcase their chemistry through creative performances.",
-    "guidelines": "• 2-person performance\n• Any performance art form\n• Time limit applies\n• Chemistry and coordination judged",
+    "guidelines": "• 2-person performance\n• Any performance art form\n• Time limit applies\n• Chemistry and coordination judged\n• Participants are allowed to perform as a duo even if they belong to different colleges. Cross-college participation is permitted for the Duo Dance event",
     "registrationFee": "600/- per team",
     "cashPrize": { "type": "first-second", "first": "15,000", "second": "5,000" },
     "coordinator": {
@@ -380,8 +380,8 @@
     "registrationFee": "200/- per team",
     "cashPrize": { "type": "first-second", "first": "3,000", "second": "2,000" },
     "coordinator": {
-      "name": "Aditi Dev",
-      "phone": "+91 97782 78711"
+      "name": "Hanna Joy, Mansha Karan",
+      "phone": "75101 71964, 70122 30835"
     },
     "image": "/swarabinaya.png",
     "registrationLink": "https://tally.so/r/PdOrB0"
@@ -491,7 +491,7 @@
     "cashPrize": { "type": "first-second", "first": "1,500", "second": "1,000" },
     "coordinator": {
       "name": "B Vaishnavi",
-      "phone": "8848473585"
+      "phone": "+91 99496 71946"
     },
     "image": "/tejas.png",
     "registrationLink": "https://tally.so/r/KY1GvD"
@@ -545,8 +545,8 @@
     "registrationFee": "500/- per team",
     "cashPrize": { "type": "prize-pool", "amount": "25,000" },
     "coordinator": {
-      "name": "Althaf Rahman, Sayooj Sunil Kumar",
-      "phone": "7012250226, 7907338896"
+      "name": "Krishna Priya, Sayooj Sunil Kumar",
+      "phone": "+91 88917 61138, 7907338896"
     },
     "image": "/robowar.png",
     "registrationLink": "https://tally.so/r/0QO4P9"
