@@ -21,4 +21,5 @@ export interface Event {
   image?: string;
   registrationLink?: string;
   subevents?: string[];
+  registrationClosed?: boolean;
 }
