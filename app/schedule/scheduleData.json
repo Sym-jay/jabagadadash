@@ -100,13 +100,6 @@
           "date": "19/02/2026",
           "registrationFee": "120/- per team",
           "cashPrize": "1st: 3,000/- | 2nd: 1,500/-"
-        },
-        {
-          "name": "Swarabhinaya (Dub a scene)",
-          "category": "Cultural",
-          "date": "19/02/2026",
-          "registrationFee": "200/- per team",
-          "cashPrize": "1st: 3,000/- | 2nd: 2,000/-"
         }
       ]
     },
@@ -236,6 +229,13 @@
           "date": "21/02/2026",
           "registrationFee": "1,000/- per team",
           "cashPrize": "1st: 20,000/- | 2nd: 10,000/-"
+        },
+        {
+          "name": "Swarabhinaya (Dub a scene)",
+          "category": "Cultural",
+          "date": "21/02/2026",
+          "registrationFee": "200/- per team",
+          "cashPrize": "1st: 3,000/- | 2nd: 2,000/-"
         }
       ]
     }
